@@ -1,0 +1,17 @@
+==Introduction
+This program implements the inner-distance shape context (IDSC) algorithm for identifying the shapes of images. You run it as follows:
+
+	./idsc plant\ a\ 1.png plant\ a\ 2.png plant\ b\ 3\ .png
+==Compiling
+cmake .
+make
+==Dependencies
+The code uses C++, CMake, and OpenCV.
+==Algorithm
+The IDSC algorithm takes into account the direction and distance between points. This is then binned into 64 different bins to produce a summary of the shape information. 
+
+The algorithm operates by first determining the contour of the shape, and then sampling from the points of the contour to compute shape information. The values of the IDSC are then output. 
+==Author
+Written by Gershon Bialer. You can contact me at gershon.bialer@gmail.com. Please let me if this is useful for you.
+==License
+This code is distributed under the LGPL 3 license. See the license file.

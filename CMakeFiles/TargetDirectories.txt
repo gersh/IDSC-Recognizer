@@ -1,0 +1,1 @@
+/Users/gershonbialer/IDSC-Recognizer/CMakeFiles/idsc.dir
